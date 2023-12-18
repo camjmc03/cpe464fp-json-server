@@ -1,0 +1,35 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     json-server
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _construct_client_table, symObjAddr: 0x0, symBinAddr: 0x100003000, symSize: 0x4C }
+  - { offsetInCU: 0x3F, offset: 0x3F, size: 0x8, addend: 0x0, symName: _global_client_table, symObjAddr: 0xB2F8, symBinAddr: 0x10000C008, symSize: 0x0 }
+  - { offsetInCU: 0x37B, offset: 0x37B, size: 0x8, addend: 0x0, symName: _global_listening_sd, symObjAddr: 0x41F0, symBinAddr: 0x10000C000, symSize: 0x0 }
+  - { offsetInCU: 0x3A8, offset: 0x3A8, size: 0x8, addend: 0x0, symName: _global_server_addrinfo, symBinAddr: 0x10000C010, symSize: 0x0 }
+  - { offsetInCU: 0x498, offset: 0x498, size: 0x8, addend: 0x0, symName: _select_write_set, symBinAddr: 0x10000C118, symSize: 0x0 }
+  - { offsetInCU: 0x4E4, offset: 0x4E4, size: 0x8, addend: 0x0, symName: _select_read_set, symBinAddr: 0x10000C098, symSize: 0x0 }
+  - { offsetInCU: 0x4F9, offset: 0x4F9, size: 0x8, addend: 0x0, symName: _select_error_set, symBinAddr: 0x10000C018, symSize: 0x0 }
+  - { offsetInCU: 0x683, offset: 0x683, size: 0x8, addend: 0x0, symName: _construct_client_table, symObjAddr: 0x0, symBinAddr: 0x100003000, symSize: 0x4C }
+  - { offsetInCU: 0x6AB, offset: 0x6AB, size: 0x8, addend: 0x0, symName: _deconstruct_client_table, symObjAddr: 0x4C, symBinAddr: 0x10000304C, symSize: 0x8C }
+  - { offsetInCU: 0x6DD, offset: 0x6DD, size: 0x8, addend: 0x0, symName: _deconstruct_client, symObjAddr: 0xD8, symBinAddr: 0x1000030D8, symSize: 0xF8 }
+  - { offsetInCU: 0x74F, offset: 0x74F, size: 0x8, addend: 0x0, symName: _client_table_add, symObjAddr: 0x1D0, symBinAddr: 0x1000031D0, symSize: 0x314 }
+  - { offsetInCU: 0x865, offset: 0x865, size: 0x8, addend: 0x0, symName: _client_table_remove, symObjAddr: 0x4E4, symBinAddr: 0x1000034E4, symSize: 0x6F0 }
+  - { offsetInCU: 0xAB8, offset: 0xAB8, size: 0x8, addend: 0x0, symName: _client_table_get, symObjAddr: 0xBD4, symBinAddr: 0x100003BD4, symSize: 0xCC }
+  - { offsetInCU: 0xAE0, offset: 0xAE0, size: 0x8, addend: 0x0, symName: _get_highest_fd, symObjAddr: 0xCA0, symBinAddr: 0x100003CA0, symSize: 0xA4 }
+  - { offsetInCU: 0xB16, offset: 0xB16, size: 0x8, addend: 0x0, symName: _construct_client, symObjAddr: 0xD44, symBinAddr: 0x100003D44, symSize: 0xB8 }
+  - { offsetInCU: 0xB76, offset: 0xB76, size: 0x8, addend: 0x0, symName: _accept_new_client, symObjAddr: 0xDFC, symBinAddr: 0x100003DFC, symSize: 0x1FC }
+  - { offsetInCU: 0xBCD, offset: 0xBCD, size: 0x8, addend: 0x0, symName: _client_read, symObjAddr: 0xFF8, symBinAddr: 0x100003FF8, symSize: 0x4EC }
+  - { offsetInCU: 0xD3B, offset: 0xD3B, size: 0x8, addend: 0x0, symName: _client_parse, symObjAddr: 0x14E4, symBinAddr: 0x1000044E4, symSize: 0x324 }
+  - { offsetInCU: 0xE56, offset: 0xE56, size: 0x8, addend: 0x0, symName: _client_generate, symObjAddr: 0x1808, symBinAddr: 0x100004808, symSize: 0x37C }
+  - { offsetInCU: 0xF53, offset: 0xF53, size: 0x8, addend: 0x0, symName: _client_exit, symObjAddr: 0x1B94, symBinAddr: 0x100004B94, symSize: 0x240 }
+  - { offsetInCU: 0x1013, offset: 0x1013, size: 0x8, addend: 0x0, symName: _client_write, symObjAddr: 0x1DD4, symBinAddr: 0x100004DD4, symSize: 0x718 }
+  - { offsetInCU: 0x1281, offset: 0x1281, size: 0x8, addend: 0x0, symName: _poll_clients, symObjAddr: 0x24EC, symBinAddr: 0x1000054EC, symSize: 0xB9C }
+  - { offsetInCU: 0x1689, offset: 0x1689, size: 0x8, addend: 0x0, symName: _init_listening_socket_specified, symObjAddr: 0x309C, symBinAddr: 0x10000609C, symSize: 0x670 }
+  - { offsetInCU: 0x1763, offset: 0x1763, size: 0x8, addend: 0x0, symName: __OSSwapInt16, symObjAddr: 0x370C, symBinAddr: 0x10000670C, symSize: 0x24 }
+  - { offsetInCU: 0x178B, offset: 0x178B, size: 0x8, addend: 0x0, symName: _init_listening_socket_any, symObjAddr: 0x3730, symBinAddr: 0x100006730, symSize: 0x334 }
+  - { offsetInCU: 0x1820, offset: 0x1820, size: 0x8, addend: 0x0, symName: _init_listening_socket, symObjAddr: 0x3A64, symBinAddr: 0x100006A64, symSize: 0x3E8 }
+  - { offsetInCU: 0x18B8, offset: 0x18B8, size: 0x8, addend: 0x0, symName: _server_exit, symObjAddr: 0x3E4C, symBinAddr: 0x100006E4C, symSize: 0x9C }
+  - { offsetInCU: 0x18CE, offset: 0x18CE, size: 0x8, addend: 0x0, symName: _sigint_handler, symObjAddr: 0x3EE8, symBinAddr: 0x100006EE8, symSize: 0x54 }
+  - { offsetInCU: 0x18F4, offset: 0x18F4, size: 0x8, addend: 0x0, symName: _initialize_sigint, symObjAddr: 0x3F3C, symBinAddr: 0x100006F3C, symSize: 0xB8 }
+  - { offsetInCU: 0x191E, offset: 0x191E, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x3FF4, symBinAddr: 0x100006FF4, symSize: 0x1FC }
+...

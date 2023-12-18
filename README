@@ -1,0 +1,8 @@
+author: Cameron McClure-Coleman
+email: cjmcclur@calpoly.edu
+
+to run server:
+./json-server-<os_suffix>
+./json-server-<os_suffix> <address>
+
+have a wonderful day!

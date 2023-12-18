@@ -1,0 +1,10 @@
+[
+  {
+    "feature": "about",
+    "URL": "/json/about.json"
+  },
+  {
+    "feature": "quit",
+    "URL": "/json/quit"
+  }
+]
