@@ -18,7 +18,7 @@
 #include <fcntl.h>
 #include <sys/errno.h>
 #include <netdb.h>
-#include "smartalloc.h"
+//#include "smartalloc.h"
 
 #define DEBUG 1
 #define DEBUG_VERBOSE 1
