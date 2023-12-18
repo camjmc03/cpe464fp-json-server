@@ -5,4 +5,9 @@ to run server:
 ./json-server-<os_suffix>
 ./json-server-<os_suffix> <address>
 
-have a wonderful day!
+Fun project. Learned alot about socket programming in C.
+
+Note on the project structure. I wrote it in such a way that
+it could read from requested files instead of responding from hard coded string literals
+and then realized I could only turn in one .c file for the project. 
+I might rewrite it for fun to read from files.
